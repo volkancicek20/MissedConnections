@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "29532377277",
+    "project_id": "missedconnections-f6211",
+    "storage_bucket": "missedconnections-f6211.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:29532377277:android:edebfafb83b731246f27d4",
+        "android_client_info": {
+          "package_name": "com.cicekvolkan.missedconnections"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "29532377277-3gvplfkuhk8olisq1m5qc8uc7jolsmf8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCFmO0RdpR95Yq0_nTQhtX_k_l7cKO4Z94"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "29532377277-3gvplfkuhk8olisq1m5qc8uc7jolsmf8.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

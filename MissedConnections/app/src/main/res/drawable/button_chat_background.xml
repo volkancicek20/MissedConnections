@@ -1,0 +1,9 @@
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:drawable="@drawable/button_chat_pressed" android:state_pressed="true" />
+    <item android:drawable="@drawable/button_chat_normal" />
+    <item android:drawable="@drawable/baseline_send_24"
+        android:gravity="center"
+        android:tint="@android:color/black"
+        android:state_pressed="true"/>
+</layer-list>
+

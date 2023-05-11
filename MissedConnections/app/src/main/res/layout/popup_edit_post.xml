@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/popup_Layout_find"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/recycleview_radius_popup"
+    android:gravity="center"
+    android:orientation="vertical"
+    >
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/auto_city_find"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense.ExposedDropdownMenu"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="15dp"
+        app:startIconDrawable="@drawable/baseline_search_24"
+        android:layout_marginEnd="10dp"
+        app:hintTextColor="@color/white"
+        app:boxStrokeColor="@color/white"
+        app:boxBackgroundColor="@android:color/black"
+        app:boxStrokeWidth="2dp"
+        app:boxCornerRadiusBottomEnd="8dp"
+        app:boxCornerRadiusBottomStart="8dp"
+        app:boxCornerRadiusTopEnd="8dp"
+        app:boxCornerRadiusTopStart="8dp">
+
+        <AutoCompleteTextView
+            android:id="@+id/auto_complete_text_city_find"
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:hint="İl:"
+            android:textColorHint="#FFFFFF"
+            android:textColor="@color/white"
+            tools:ignore="LabelFor" />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+
+    <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/auto_district_find"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense.ExposedDropdownMenu"
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="15dp"
+            app:hintTextColor="@color/white"
+            android:layout_marginEnd="10dp"
+            app:startIconDrawable="@drawable/baseline_search_24"
+            app:boxStrokeColor="@color/white"
+            app:boxBackgroundColor="@android:color/black"
+            app:boxStrokeWidth="2dp"
+            app:boxCornerRadiusBottomEnd="8dp"
+            app:boxCornerRadiusBottomStart="8dp"
+            app:boxCornerRadiusTopEnd="8dp"
+            app:boxCornerRadiusTopStart="8dp"
+            >
+            <AutoCompleteTextView
+                android:id="@+id/auto_complete_text_district_find"
+                android:layout_width="350dp"
+                android:textColor="@color/white"
+                android:textColorHint="#FFFFFF"
+                android:hint="İlçe:"
+                android:layout_height="wrap_content"
+                tools:ignore="LabelFor" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <EditText
+            android:id="@+id/popup_edittext_key"
+            android:layout_width="350dp"
+            android:layout_height="100dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginEnd="10dp"
+            android:background="@drawable/rectangle_border"
+            android:gravity="start|top"
+            android:hint="Anahtar kelimleri virgül ile ayırarak giriniz:(Örneğin: alışveriş merkezi adı,kafe adı,cadde adı vb.)"
+            android:inputType="textMultiLine"
+            android:maxLength="600"
+            android:padding="10dp"
+            android:textColor="#FFFFFF"
+            android:textColorHint="#937A7A"
+            android:textSize="16sp" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/find_button"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="10dp"
+            android:background="@drawable/send_and_find_button"
+            android:textColor="@color/white"
+            android:text="Filtrele"
+            android:textSize="18sp"
+            app:cornerRadius="30dp" />
+
+</LinearLayout>
